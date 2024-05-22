@@ -49,7 +49,6 @@ switch ($action) {
     case "":
         //load ra trang chủ
         $home->render();
-        // $updateDepartment->render();
         break;
 
     case "employeeList":
@@ -81,7 +80,7 @@ switch ($action) {
         break;
 
     default:
-    
+
         $notFound->render();
         break;
 }
@@ -91,4 +90,3 @@ switch ($action) {
 
 
 $footer->render();
-// $home->render();
