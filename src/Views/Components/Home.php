@@ -20,7 +20,7 @@ class Home extends BaseView
                     <div class="card mb-4">
                         <form action="" method="POST" enctype="multipart/form-data">
                             <div class="card-header">
-                                <button type="button" class="btn btn-success">
+                                <button type="submit" class="btn btn-success" formaction='index.php?act=addEmployee'>
                                     <i class="fa-solid fa-plus"></i>
                                     Add Employee
                                 </button>
@@ -30,6 +30,7 @@ class Home extends BaseView
                                 <table id="datatablesSimple" class="table table-striped">
                                     <thead>
                                         <tr>
+                                            <th>ID</th>
                                             <th>Name</th>
                                             <th>Date Of Birth</th>
                                             <th>Gender</th>
@@ -44,6 +45,7 @@ class Home extends BaseView
                                     </thead>
                                     <tfoot>
                                         <tr>
+                                            <th>ID</th>
                                             <th>Name</th>
                                             <th>Date Of Birth</th>
                                             <th>Gender</th>
@@ -58,6 +60,7 @@ class Home extends BaseView
                                     </tfoot>
                                     <tbody>
                                         <tr>
+                                            <td>1</td>
                                             <td>Nguyễn Văn A</td>
                                             <td>1/1/1999</td>
                                             <td>Nam</td>
@@ -78,6 +81,7 @@ class Home extends BaseView
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>2</td>
                                             <td>Trần Thị B</td>
                                             <td>15/3/1995</td>
                                             <td>Nữ</td>
@@ -97,6 +101,7 @@ class Home extends BaseView
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>3</td>
                                             <td>Phạm Văn C</td>
                                             <td>20/10/1988</td>
                                             <td>Nam</td>
@@ -116,6 +121,7 @@ class Home extends BaseView
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>4</td>
                                             <td>Lê Thị D</td>
                                             <td>5/7/1993</td>
                                             <td>Nữ</td>
@@ -135,6 +141,7 @@ class Home extends BaseView
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>5</td>
                                             <td>Nguyễn Thị F</td>
                                             <td>10/8/1997</td>
                                             <td>Nữ</td>

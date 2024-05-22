@@ -21,7 +21,7 @@ class DepartmentList extends BaseView
                         <form action="" method="POST" enctype="multipart/form-data">
 
                             <div class="card-header">
-                                <button type="button" class="btn btn-success">
+                                <button type="submit" class="btn btn-success" formaction="index.php?act=addDepartment">
                                     <i class="fa-solid fa-plus"></i>
                                     Add Department
                                 </button>
@@ -31,6 +31,7 @@ class DepartmentList extends BaseView
                                 <table id="datatablesSimple" class="table table-striped">
                                     <thead>
                                         <tr>
+                                            <th>ID</th>
                                             <th>Name</th>
                                             <th>Description</th>
                                             <th>Edit</th>
@@ -38,6 +39,7 @@ class DepartmentList extends BaseView
                                     </thead>
                                     <tfoot>
                                         <tr>
+                                            <th>ID</th>
                                             <th>Name</th>
                                             <th>Description</th>
                                             <th>Edit</th>
@@ -45,6 +47,7 @@ class DepartmentList extends BaseView
                                     </tfoot>
                                     <tbody>
                                         <tr>
+                                            <td>1</td>
                                             <td>HR</td>
                                             <td>Human Resources Department</td>
                                             <td>
@@ -58,6 +61,7 @@ class DepartmentList extends BaseView
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>2</td>
                                             <td>IT</td>
                                             <td>Information Technology Department</td>
                                             <td>
@@ -71,6 +75,7 @@ class DepartmentList extends BaseView
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>3</td>
                                             <td>Marketing</td>
                                             <td>Marketing Department</td>
                                             <td>
@@ -84,6 +89,7 @@ class DepartmentList extends BaseView
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>4</td>
                                             <td>Finance</td>
                                             <td>Finance Department</td>
                                             <td>

@@ -23,7 +23,7 @@ class AddEmployee extends BaseView
                                     <td class="col-3">
                                         <div class="input-group w-70 mb-3 mt-2">
                                             <span class="input-group-text ms-2 w-30" id="inputGroup-sizing-default">First Name</span>
-                                            <input name="first_name" class="form-control me-2 " aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="link" readonly type=text>
+                                            <input name="first_name" class="form-control me-2 " aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="link" type=text>
                                         </div>
                                     </td>
                                     <td class="col-3">
@@ -76,7 +76,7 @@ class AddEmployee extends BaseView
                                     <td class="col-3" colspan="2">
                                         <div class="input-group w-70 mb-3 mt-2">
                                             <span class="input-group-text ms-2 w-30" id="inputgroup-sizing-default">Department</span>
-                                            <select type="text" name="loai" class="form-select" id="" aria-label="Default select example">
+                                            <select type="text" name="department" class="form-select" id="" aria-label="Default select example">
                                                 <option selected disabled value="">--Choose Department--</option>
                                                 <option value="">1-IT</option>
                                                 <option value="">2-Marketing</option>
@@ -94,7 +94,7 @@ class AddEmployee extends BaseView
                                 </tr>
                                 <tr>
                                     <td colspan="4" align="center">
-                                        <button name='them' type="submit" formaction='sanpham_them.php' class="btn btn-primary mb-3">
+                                        <button name='them' type="submit" class="btn btn-primary mb-3">
                                             <i class="fas fa-user-plus" style="color:orange;"></i> Add
                                         </button>
                                     </td>
